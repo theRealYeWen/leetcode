@@ -1,13 +1,13 @@
 package org.problems;
 
-import static org.problems.Problem01_Leetcode704.search;
+import static org.problems.Problem02_Leetcode27.removeElement;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {-1, 0, 3, 5, 9, 12};
-        int target = 9;
+        int[] nums = {0,1,2,2,3,0,4,2};
+        int val = 2;
 
-        search(nums, target);
+        System.out.println(removeElement(nums, val));
     }
 
 }
