@@ -1,12 +1,14 @@
 package org.problems;
 
 import static org.problems.Problem03_Leetcode977.sortedSquares;
+import static org.problems.Problem04_Leetcode209.minSubArrayLen;
 
 public class Main {
     public static void main(String[] args) {
-        int[] nums = {-7,-3,2,3,11};
+        int[] nums = {1,1,1,1,1,1,1,1};
+        int target = 11;
 
-        sortedSquares(nums);
+        System.out.println(minSubArrayLen(target,nums));
     }
 
 }
