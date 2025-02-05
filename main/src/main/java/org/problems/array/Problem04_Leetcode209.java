@@ -1,4 +1,4 @@
-package org.problems;
+package org.problems.array;
 
 public class Problem04_Leetcode209 {
     /*

@@ -1,4 +1,4 @@
-package org.problems;
+package org.problems.array;
 
 public class Problem01_Leetcode704 {
     /*704. 二分查找
