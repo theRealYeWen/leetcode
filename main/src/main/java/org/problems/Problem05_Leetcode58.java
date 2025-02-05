@@ -2,7 +2,7 @@ package org.problems;
 
 import java.util.Scanner;
 
-public class Problem05 {
+public class Problem05_Leetcode58 {
     /*
     题目描述
     给定一个整数数组 Array，请计算该数组在每个指定区间内元素的总和。
