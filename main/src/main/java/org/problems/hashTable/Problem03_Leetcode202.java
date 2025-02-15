@@ -3,7 +3,7 @@ package org.problems.hashTable;
 import java.util.HashSet;
 import java.util.Set;
 
-public class Problemn03_Leetcode202 {
+public class Problem03_Leetcode202 {
     /*
     编写一个算法来判断一个数 n 是不是快乐数。
     快乐数」定义为：对于一个正整数，每一次将该数替换为它每个位置上的数字的平方和，然后重复这个过程直到这个数变为 1，
