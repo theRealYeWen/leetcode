@@ -1,14 +1,17 @@
 package org.problems;
 
-import org.problems.array.Problem01_Leetcode704;
+import java.util.ArrayList;
+import java.util.Arrays;
+import org.problems.array.Problem03_Leetcode977;
 
 public class Main {
-    public static void main(String[] args) {
-        int[] nums = {-1,0,3,5,9,12};
-        int target = 2;
 
-        System.out.println(Problem01_Leetcode704.binarySearch(nums, target));
+  public static void main(String[] args) {
+    int[] nums = {-7,-3,2,3,11};
 
-    }
+    int[] result = Problem03_Leetcode977.sortedSquares(nums);
+
+    System.out.println(Arrays.toString(result));
+  }
 
 }
