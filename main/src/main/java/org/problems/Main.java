@@ -1,17 +1,16 @@
 package org.problems;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import org.problems.array.Problem03_Leetcode977;
+import org.problems.array.Problem04_Leetcode209;
 
 public class Main {
 
   public static void main(String[] args) {
-    int[] nums = {-7,-3,2,3,11};
+    int[] nums = {1,4,4};
+    int target = 4;
 
-    int[] result = Problem03_Leetcode977.sortedSquares(nums);
+    int result = Problem04_Leetcode209.minSubArrayLen(target, nums);
 
-    System.out.println(Arrays.toString(result));
+    System.out.println(result);
   }
 
 }
