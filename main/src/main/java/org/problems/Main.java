@@ -1,14 +1,14 @@
 package org.problems;
 
-import org.problems.array.Problem04_Leetcode209;
+import java.util.List;
+import org.problems.array.Problem_08_Leetcode007;
 
 public class Main {
 
   public static void main(String[] args) {
-    int[] nums = {1,4,4};
-    int target = 4;
+    int[] nums =  {-1,0,1,2,-1,-4};
 
-    int result = Problem04_Leetcode209.minSubArrayLen(target, nums);
+    List<List<Integer>> result = Problem_08_Leetcode007.threeSum(nums);
 
     System.out.println(result);
   }
