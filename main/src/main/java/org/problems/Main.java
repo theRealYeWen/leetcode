@@ -1,16 +1,15 @@
 package org.problems;
 
 import java.util.List;
-import org.problems.array.Problem_08_Leetcode007;
+import org.problems.hashTable.Problem06_Leetcode049;
 
 public class Main {
 
   public static void main(String[] args) {
-    int[] nums =  {-1,0,1,2,-1,-4};
+    String[] strs = {"eat", "tea", "tan", "ate", "nat", "bat"};
+    List<List<String>> resultLists = Problem06_Leetcode049.groupAnagrams(strs);
 
-    List<List<Integer>> result = Problem_08_Leetcode007.threeSum(nums);
-
-    System.out.println(result);
+    System.out.println(resultLists);
   }
 
 }

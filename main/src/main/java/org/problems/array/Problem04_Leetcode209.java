@@ -16,7 +16,7 @@ public class Problem04_Leetcode209 {
   // 暴力解法就是两个for循环遍历出所有情况，找出最小的长度
   // 滑动窗口法其实也是优化暴力解法，将两个for循环做的事情用一个for循环做完
   public static int minSubArrayLen(int target, int[] nums) {
-    int sum = 0;
+    int sum;
     int minSubLength = Integer.MAX_VALUE;
 
     for (int i = 0; i < nums.length; i++) {
