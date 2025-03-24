@@ -48,11 +48,8 @@ public class Problem07_Leetcode128 {
         while (set.contains(currentNum + 1)) {
           currentStreak++;
           currentNum++;
-
-          if (currentStreak > longestStreak) {
-            longestStreak = currentStreak;
-          }
         }
+        longestStreak = Math.max(currentStreak,longestStreak);
       }
     }
 
