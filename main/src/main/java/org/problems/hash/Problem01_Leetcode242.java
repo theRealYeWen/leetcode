@@ -1,4 +1,4 @@
-package org.problems.hashTable;
+package org.problems.hash;
 
 public class Problem01_Leetcode242 {
 

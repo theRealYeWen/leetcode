@@ -1,4 +1,4 @@
-package org.problems.hashTable;
+package org.problems.hash;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,6 +1,6 @@
 package org.problems;
 
-import org.problems.hashTable.Problem07_Leetcode128;
+import org.problems.hash.Problem07_Leetcode128;
 
 public class Main {
 
