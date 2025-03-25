@@ -7,7 +7,7 @@ import java.util.List;
 public class Problem_08_Leetcode007 {
 
 
-  public static List<List<Integer>> threeSum(int[] nums) {
+  public List<List<Integer>> threeSum(int[] nums) {
     List<List<Integer>> result = new ArrayList<>();
 
     if (nums.length < 3) {
@@ -38,7 +38,6 @@ public class Problem_08_Leetcode007 {
           left++; // 和太大，增加left
         }
       }
-
     }
     return result;
   }

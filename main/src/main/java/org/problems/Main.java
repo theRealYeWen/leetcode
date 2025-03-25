@@ -1,14 +1,15 @@
 package org.problems;
 
-import org.problems.hash.Problem07_Leetcode128;
+import java.util.List;
+import org.problems.hash.Problem09_Leetcode015;
 
 public class Main {
 
   public static void main(String[] args) {
-    int[] nums = {0,3,7,2,5,8,4,6,0,1};
-    int result = Problem07_Leetcode128.longestConsecutive(nums);
+    int[] nums = {-1,0,1,2,-1,-4};
+    List<List<Integer>> lists = Problem09_Leetcode015.threeSum(nums);
 
-    System.out.println(result);
+    System.out.println(lists);
   }
 
 }
