@@ -1,7 +1,7 @@
 package org.problems;
 
 import java.util.List;
-import org.problems.hash.Problem09_Leetcode015;
+import org.problems.array.Problem09_Leetcode015;
 
 public class Main {
 
