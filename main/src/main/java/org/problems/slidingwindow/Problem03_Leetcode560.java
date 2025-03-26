@@ -19,6 +19,7 @@ public class Problem03_Leetcode560 {
 
   // 对于这种子数组的和一般会优先考虑前缀和的方法，这道题可以结合前缀和+HashMap
   // 求子数组的和可以用 前缀和-前面某段的前缀和 = 区间和/子数组的和
+  // 遍历数组，计算前缀和，将其塞入HashMap；然后利用当前前缀和-目标元素，查看值是否在hashMap里面，并计数，返回计数的值。
   public static int subarraySum(int[] nums, int k) {
     // 首先定义一个HashMap, 用于存储和为k的子数组的个数
     HashMap<Integer, Integer> map = new HashMap<>();
