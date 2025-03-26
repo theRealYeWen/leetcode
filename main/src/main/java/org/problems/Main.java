@@ -5,15 +5,17 @@ import org.problems.array.Problem09_Leetcode015;
 import org.problems.array.Problem10_Leetcode011;
 import org.problems.slidingwindow.Problem01_Leetcode003;
 import org.problems.slidingwindow.Problem02_Leetcode438;
+import org.problems.slidingwindow.Problem03_Leetcode560;
 
 public class Main {
 
   public static void main(String[] args) {
-    String s = "cbaebabacd";
-    String p = "abc";
-    List<Integer> anagrams = Problem02_Leetcode438.findAnagrams(s, p);
+    int[] nums = {1,1,1};
+    int k = 2;
 
-    System.out.println(anagrams);
+    int result = Problem03_Leetcode560.subarraySum(nums, k);
+
+    System.out.println(result);
   }
 
 }
