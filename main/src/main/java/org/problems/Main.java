@@ -2,14 +2,16 @@ package org.problems;
 
 import java.util.List;
 import org.problems.array.Problem09_Leetcode015;
+import org.problems.array.Problem10_Leetcode011;
+import org.problems.slidingwindow.Problem01_Leetcode003;
 
 public class Main {
 
   public static void main(String[] args) {
-    int[] nums = {-1,0,1,2,-1,-4};
-    List<List<Integer>> lists = Problem09_Leetcode015.threeSum(nums);
+    String s = "abcabcbb";
+    int result = Problem01_Leetcode003.lengthOfLongestSubstring(s);
 
-    System.out.println(lists);
+    System.out.println(result);
   }
 
 }
